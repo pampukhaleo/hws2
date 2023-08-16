@@ -1,18 +1,37 @@
 .sendForm {
-
+    display: flex;
+    margin-top: 50px;
 }
 
 .textarea {
-
+    flex-grow: 1;
+    height: 40px !important;
+    border-radius: 20px;
+    background-color: #F5F7FB;
+    border: none;
+    line-height: 40px;
+    padding-left: 40px;
+    color: #00000099;
+    opacity: 90%;
+    font-size: 14px;
 }
 
 .button {
-
+    width: 120px;
+    border-radius: 20px;
+    border: none;
+    background-color: #0066CC;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-left: 30px;
 }
 
 .button:hover {
 
 }
+
 .button:active {
 
 }
