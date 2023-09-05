@@ -1,16 +1,35 @@
 .button {
+    width: 132px;
+    height: 30px;
+    padding: 5px 24px 5px 24px;
+    border: none;
+    border-radius: 3px;
+    font-family: Montserrat, sans-serif;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
 }
 
 .disabled {
+    background-color: #004D99;
+    color: #002E5C;
 }
 
 .secondary {
+    width: 176px;
+    border: 1px solid #0066CC;
+    color: #0066CC;
+    background-color: white;
 }
 
 .default {
+    color: white;
+    background-color: #0066CC;
 }
 
 .red {
+    background-color: red;
 }
 
 .default:hover {
