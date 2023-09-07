@@ -12,6 +12,7 @@
 }
 
 .disabled {
+    opacity: 50%;
     background-color: #004D99;
     color: #002E5C;
 }
@@ -33,22 +34,29 @@
 }
 
 .default:hover {
+    width: 176px;
+    background-color: #0080FF;
 }
 
 .red:hover {
+    width: 176px;
+    background-color: #FF1A47;
 }
 
 .secondary:hover {
+    background-color: #E5F0FA;
 }
 
-
 .default:active {
+    background-color: #0059B2;
 }
 
 .secondary:active {
+    background-color: #C9E5FF;
 }
 
 .red:active {
+    background-color: #B21232;
 }
 
 .button:disabled {
