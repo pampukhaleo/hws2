@@ -1,32 +1,39 @@
 .sidebar {
-    display: none;
+    position: fixed;
+    height: 100vh;
+    width: 317px;
+    left: -317px;
+    top: 0;
+    transition: 0.2s ease-in;
+    background-color: white;
+    z-index: 20;
 }
 
 .sidebar.open {
     width: 317px;
     height: 100vh;
-    background-color: white;
 
     display: flex;
     flex-direction: column;
-    position: absolute;
-    top: 0;
+    position: fixed;
     left: 0;
-    z-index: 1;
-
-    padding: 16px;
 }
 
 .background {
-    display: block;
-    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     background-color: #000000;
     opacity: 0.3;
+    z-index: 10;
 }
 
 .nav {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
 
     font-size: 22px;
     font-weight: 600;
@@ -34,6 +41,7 @@
     letter-spacing: 0em;
     text-align: left;
     padding-left: 70px;
+    color: black;
 }
 
 .nav a {
@@ -48,10 +56,17 @@
 
 .nav a.active {
     color: #0059B2;
-    border-bottom: #0059B2;
+    border-bottom: 1px solid #0059B2;
+}
+
+.nav a.visited {
+    color: #3D6B99;
 }
 
 .close {
+    position: absolute;
+    right: 16px;
+    top: 16px;
     width: 24px;
     height: 24px;
     margin-left: auto;
