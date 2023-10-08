@@ -15,6 +15,13 @@
 }
 
 .superInput {
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    padding-left: 23px;
 }
 
 .errorInput {
